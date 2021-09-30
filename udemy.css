@@ -1,0 +1,318 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*body {
+	background-color: honeydew;
+}*/
+
+.navbar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-grow: 1;
+  border: 1.5px solid black;
+  padding: 0 1%;
+  height: 60px;
+  width: 100%;
+  
+}
+
+.logo,
+.search-bar,
+.search-icon,
+.search-input,
+.teach,
+.learning,
+.profile{
+  height: 80%;
+  border: 1.5px solid black;
+}
+
+.logo {
+  background-color: white;
+  margin: 0 5px;
+  height: 70%;
+  width: 20%;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 0 2%;
+  width: 80%;
+  border-radius: 10px;
+
+}
+
+.search-icon {
+  background-color: white;
+  margin-left: 6px;
+  width: 7%;
+}
+
+.search-input {
+  margin-right: 6px;
+  width: 93%;
+}
+
+.teach {
+  background-color: white;
+  margin: 0 3px;
+  width: 12%;
+  height: 70%;
+}
+
+.learning {
+  background-color: white;
+  margin: 0 3px;
+  width: 12%;
+  height: 70%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-grow: 1;
+  background-color: white;
+  margin: 0 3px;
+  width: 6%;
+  height: 70%;
+  border-radius: 5px;
+}
+.main{
+  display: block;
+  align-items: center;
+  background-color: white;
+  border: 1.5px solid black;
+  height: 100%;
+}
+#main-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1.5px solid black;
+  height: 500px;
+  width: 100%;
+}
+
+.mylearning-title {
+  border: 1.5px solid black;
+  background-color: white;
+  margin: 3px 10px;
+  height: 200px;
+  width: 100%;
+}
+.myl{
+  border: 1.5px solid black;
+  margin: 20px 10px;
+  height: 40px;
+  width: 25.5%;
+  flex: auto;
+}
+.myl-down{
+  display: flex;
+  flex: auto;
+  border: 1.5px solid black;
+  margin: 20px 10px;
+  height: 52.5px;
+  width: 35.5%;
+}
+.all-courses{
+  diplay: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  flex: auto;
+  border: 1.5px solid black;
+  margin: 8px 10px;
+  height: 35px;
+  width: 100px;
+}
+
+.mylearning-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1.5px solid black;
+  margin: 0px 10px;
+  height: 300px;
+  width: 100%;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 66px) {
+.courses{
+  display: inline-flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1.5px solid black;
+  width: 250px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px 50px;
+  }
+}
+.inside-box{
+  border: 1.5px solid black;
+  display: flex;
+  width: 400px;
+  height: 100px;
+}
+.in-box{
+  border: 1.5px solid black;
+  display: flex;
+  width: 400px;
+  height: 90px;
+}
+.small-box{
+  border: 1.5px solid black;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin: 0px 80%;
+  margin-right: 6px;
+  justify-content: end;
+}
+.lower-row {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  border: 1.5px solid black;
+  height: 220px;
+  width: 100%;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.lowerbox-row {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  border: 1.5px solid black;
+  margin: 2% 780px;
+  height: 120px;
+  width: 18%;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+  .course-number-arrow  {
+  border: 1.5px solid black;
+  display: inline-flex;
+  row-gap: 10px;
+  width: 250px;
+  height: 60px;
+  margin: 10px 0px;
+}
+.arrow-circle1{
+  border: 1.5px solid black;
+  display: flex;
+  width: 53px;
+  height: 53px;
+  margin: 2px 1%;
+  margin-right: 6px;
+  justify-content: end;
+  border-radius: 50%;
+}
+.arrow-circle2{
+  border: 1.5px solid black;
+  display: flex;
+  width: 53px;
+  height: 53px;
+  margin: 1px 1%;
+  margin-right: 0px;
+  justify-content: end;
+  border-radius: 50%;
+}
+.arrow-circle-small{
+  border: 1.5px solid black;
+  display: flex;
+  width: 38px;
+  height: 38px;
+  gap: 0px;
+  margin: 10px 2%;
+  margin-right: 3px;
+  border-radius: 50%;
+}
+.course-number-arrow2{
+  border: 1.5px solid black;
+  display: flex;
+  width: 120px;
+  height: 20px;
+  margin: 2px 28%;
+}
+.footer-row {
+  display: inline-flex;
+  flex-direction: row;
+  background-color: white;
+  border: 1.5px solid black;
+  height: 300px;
+  width: 100%;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.footer-box{
+  border: 1.5px solid black;
+  display: inline-flex;
+  width: 800px;
+  height: 100px;
+  margin: 2% 3%;
+  flex-wrap: wrap;
+}
+
+.get{
+  border: 1.5px solid black;
+  width: 100px;
+  height: 40px;
+  gap: 20px;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-l{
+  border: 1.5px solid black;
+  width: 150px;
+  height: 100px;
+  margin: 0% 1.8%;
+}
+.footer-c{
+  border: 1.5px solid black;
+  width: 150px;
+  height: 100px;
+  margin: 0% 19%;
+}
+.footer-r{
+  border: 1.5px solid black;
+  width: 150px;
+  height: 100px;
+  margin: 0% 0%;
+}
+
+.business{
+  font-family: cursive;
+  font-size: 30px;
+  border: 1.5px solid black;
+  display: flex;
+  width: 300px;
+  height: 60px;
+  margin: 10% 0%;
+}
+.udemy-inc{
+  border: 1.5px solid black;
+  display: flex;
+  width: 300px;
+  height: 60px;
+  margin: 0% 0%;
+}
